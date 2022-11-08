@@ -102,3 +102,12 @@
 2022-11-08 15:24:45.659651 (Thread-15): handling status request
 2022-11-08 15:24:45.661576 (Thread-15): 15:24:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a10e6e99-c7ed-4776-ae66-a9249886478d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf71dbfca0>]}
 2022-11-08 15:24:45.662738 (Thread-15): sending response (<Response 26315 bytes [200 OK]>) to 10.0.33.187
+2022-11-08 15:25:04.905905 (Thread-16): 15:25:04  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-11-08 15:25:04.906130 (Thread-16): 15:25:04  Partial parsing enabled, no changes found, skipping parsing
+2022-11-08 15:25:04.912365 (Thread-16): 15:25:04  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a10e6e99-c7ed-4776-ae66-a9249886478d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf71c494f0>]}
+2022-11-08 15:25:05.053448 (Thread-17): handling status request
+2022-11-08 15:25:05.053835 (Thread-17): 15:25:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a10e6e99-c7ed-4776-ae66-a9249886478d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf71dbcbb0>]}
+2022-11-08 15:25:05.054294 (Thread-17): sending response (<Response 1263 bytes [200 OK]>) to 10.0.33.187
+2022-11-08 15:25:25.008646 (Thread-18): handling status request
+2022-11-08 15:25:25.009055 (Thread-18): 15:25:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a10e6e99-c7ed-4776-ae66-a9249886478d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf71dbc880>]}
+2022-11-08 15:25:25.009511 (Thread-18): sending response (<Response 1263 bytes [200 OK]>) to 10.0.33.187
